@@ -2,4 +2,3 @@
 ## innoDB引擎的架构
 
 
-![alt text](../../images/image.png)
