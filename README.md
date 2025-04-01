@@ -38,4 +38,5 @@ git push -u origin main
 git remote add origin https://github.com/Dorian-0v0/MyMlogs.git
 git branch -M main
 git push -u origin main
+git push -u origin main --force // 强制提交
 ```
