@@ -57,13 +57,13 @@ StringBuilder stringBuilder = new StringBuilder(str);
 char ch = sb.charAt(1); // e，获取字符
 sb.setCharAt(1, 'a'); // 替换特定位置的字符
 sb.reverse(); // 逆转
-```
+
 
 ## 集合
 **Collection 接口的通用方法**
 ```java
 add(T t) // 添加元素
-remove() // 移除元素
+remove(int index) // 移除元素
 size()// 返回元素的个数
 isEmpty()// 是否为空
 contains(T t) // 是否包含t
