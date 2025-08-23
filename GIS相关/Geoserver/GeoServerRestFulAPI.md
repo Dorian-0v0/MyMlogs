@@ -1,0 +1,1 @@
+查看geosever的基本信息："http://localhost:8080/geoserver/rest/about/status.json"
