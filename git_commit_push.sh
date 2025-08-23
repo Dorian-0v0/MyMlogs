@@ -1,10 +1,7 @@
-#!/bin/bash
-
 # 提示用户输入提交信息
 echo "请输入提交信息（commit message）："
 read commit_message
 
-# 检查提交信息是否为空
 if [ -z "$commit_message" ]; then
     echo "提交信息不能为空，请重新运行脚本并输入提交信息。"
     exit 1
